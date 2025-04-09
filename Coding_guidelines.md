@@ -13,10 +13,25 @@
   > Use inline comments only for complex logic. (eg: some complex pointer code might need example).
     > Example : 
               Bad Commenting:
-                x=x+1;//This adds 1 to x (Its obvious and can be understood easily)
+                x=x+1;//This adds 1 to x (It's obvious and can be understood easily)
               Good Commenting:
-                //Increse the counter to track the number of attempts 
-                attempts+=1;
+                /*
+                  Returns the factorial of a given number using recursion.
+                 */
+                fn factorial(n: u64) -> u64 {
+                  if n <= 1 {
+                    1
+                  }
+                   else {
+                        n * factorial(n - 1)
+                  }
+                }
+
+                  fn main() {
+                     let number = 5;
+                      println!("Factorial of {} is {}", number, factorial(number));
+                  }
+
   > Try to use multi-lined comments to briefly describe the use of function instead.
 
 > Follow Naming Conventions
