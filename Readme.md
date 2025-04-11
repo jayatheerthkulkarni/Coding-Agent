@@ -25,8 +25,7 @@ Coding-Agent -A smarter and more efficient and powerful alternative to other AI-
 - More Control – Modify and self-host the AI on your own servers or run locally.
 
 # License 
-
-- MIT License – That means it’s free, forever. Use it, modify it, and build cool stuff with it.
+- This is absolutely free and anyone can modify it and use it without any restrictions!
 
 
 
